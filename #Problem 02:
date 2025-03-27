@@ -1,0 +1,13 @@
+#Problem 02: 
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    double theta = 45.0; // Angle in degrees
+    double theta_rad = theta * M_PI / 180.0;
+    double ratio = 1.0 / sin(theta_rad);
+
+    printf("The ratio of slit width to wavelength (a/λ) is: %.4f\n", ratio);
+
+    return 0;
+}
